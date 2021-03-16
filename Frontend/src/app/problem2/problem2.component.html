@@ -1,0 +1,25 @@
+<h2>Problem - 2</h2>
+
+<br>
+<br>
+<div class="row ">
+  <form class="col s12">
+    <div class="row">
+      <div class="col-12">
+        <textarea  [(ngModel)]="data.data" name="problem-2" class="form-control"   id="textarea1" ></textarea>
+      </div>
+      
+      <div class="col-12">
+        <br>
+        <button class="alert alert-info btn btn-block" (click)="Save()">Enviar Test</button>
+        <br>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <pre>{{resp | json}} </pre>
+
+  </form>
+</div>
